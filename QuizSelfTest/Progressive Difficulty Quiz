@@ -1,0 +1,33 @@
+    # Progressive Difficulty Self-Test
+
+    ## Purpose
+    Tests your understanding of a topic you just studied using 10 questions of increasing difficulty, with immediate grading, mistake explanations, and targeted improvement guidance. Designed to catch shallow understanding before it becomes a problem in an interview or real project.
+
+    ## When to Use
+    - Right after finishing a study session (pairs well with the learning plan generator)
+    - Before an interview, to pressure-test how solid your knowledge actually is
+    - When you *think* you understand something but want to verify
+
+    ## The Prompt
+
+    ```
+    I just studied [topic]. Test me with 10 increasingly difficult questions. 
+    After every answer, grade my response, explain mistakes clearly, and help 
+    me improve weak areas.
+    ```
+
+    ## How to Customize
+    - Replace `[topic]` with exactly what you studied (be specific — "SQL joins" vs "SQL" changes the question quality significantly)
+    - Add "one question at a time, wait for my answer before the next" if you want a strict back-and-forth instead of all 10 at once
+    - Add "include a mix of conceptual and applied/scenario-based questions" for more interview-realistic testing
+    - Add "give me a final score out of 10 and a summary of weak areas" for a wrap-up at the end
+
+    ## What Good Grading Looks Like
+    - Not just "correct/incorrect" — a real explanation of *why* an answer is wrong
+    - Points out partial understanding (e.g., "you got the concept right but missed the edge case")
+    - Ends with a clear list of weak areas to revisit, not just a score
+
+    ## Notes
+    - Difficulty should genuinely escalate — question 1 should be noticeably easier than question 10
+    - If every question feels the same difficulty, explicitly ask the AI to recalibrate
+    - Best used honestly — don't look up answers mid-test, the value is in finding real gaps
