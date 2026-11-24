@@ -8,6 +8,7 @@ A curated collection of reusable, high-quality prompts I use for learning, testi
 |---|---|
 | `learning-plans/` | Prompts that generate focused, time-boxed learning plans (80/20 principle) for any topic |
 | `self-testing/` | Prompts that quiz and grade understanding after studying a topic |
+| `youtube-channels/` | Per-channel voice files and Claude rules for the YouTube agent skills |
 
 ## 💡 Why This Repo Exists
 
